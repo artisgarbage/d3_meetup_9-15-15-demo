@@ -1,6 +1,6 @@
 [  
    {  
-      "articles":[  
+      "reports":[  
          [  
             2008,
             433
@@ -35,10 +35,12 @@
          ]
       ],
       "total":2323,
-      "name":"Steamboat Springs"
+      "name":"Steamboat Springs",
+      "latitude": 40.459613,
+      "avg_elevation" : 8734
    },
    {  
-      "articles":[  
+      "reports":[  
          [  
             2008,
             378
@@ -73,10 +75,12 @@
          ]
       ],
       "total":2116,
-      "name":"Winter Park"
+      "name":"Winter Park",
+      "latitude": 39.8821918,
+      "avg_elevation" : 10530
    },
    {  
-      "articles":[  
+      "reports":[  
          [  
             2008,
             343
@@ -111,10 +115,12 @@
          ]
       ],
       "total":2404,
-      "name":"Breckenridge"
+      "name":"Breckenridge",
+      "latitude": 39.501242,
+      "avg_elevation" : 11298
    },
    {  
-      "articles":[  
+      "reports":[  
          [  
             2008,
             248
@@ -149,10 +155,12 @@
          ]
       ],
       "total":1536,
-      "name":"Keystone"
+      "name":"Keystone",
+      "latitude": 39.6074412,
+      "avg_elevation" : 10843
    },
    {  
-      "articles":[  
+      "reports":[  
          [  
             2008,
             316
@@ -187,10 +195,12 @@
          ]
       ],
       "total":2260,
-      "name":"Arapahoe Basin"
+      "name":"Arapahoe Basin",
+      "latitude": 39.6423118,
+      "avg_elevation" : 11914
    },
    {  
-      "articles":[  
+      "reports":[  
          [  
             2008,
             333
@@ -225,10 +235,12 @@
          ]
       ],
       "total":34,
-      "name":"Copper Mountain"
+      "name":"Copper Mountain",
+      "latitude": 39.4854672,
+      "avg_elevation" : 11012
    },
    {  
-      "articles":[  
+      "reports":[  
          [  
             2008,
             439
@@ -263,10 +275,12 @@
          ]
       ],
       "total":2392,
-      "name":"Vail"
+      "name":"Vail",
+      "latitude": 39.6334609,
+      "avg_elevation" : 9845
    },
    {  
-      "articles":[  
+      "reports":[  
          [  
             2008,
             431
@@ -301,10 +315,12 @@
          ]
       ],
       "total":2016,
-      "name":"Beaver Creek"
+      "name":"Beaver Creek",
+      "latitude": 39.6031749,
+      "avg_elevation" : 9769
    },
    {  
-      "articles":[  
+      "reports":[  
          [  
             2008,
             402
@@ -339,10 +355,12 @@
          ]
       ],
       "total":2195,
-      "name":"Aspen / Snowmass"
+      "name":"Aspen / Snowmass",
+      "latitude": 39.205392,
+      "avg_elevation" : 10194
    },
    {  
-      "articles":[  
+      "reports":[  
          [  
             2008,
             414
@@ -377,10 +395,11 @@
          ]
       ],
       "total":1749,
-      "name":"Crested Butte"
+      "name":"Crested Butte",
+      "latitude": 10631
    },
    {  
-      "articles":[  
+      "reports":[  
          [  
             2008,
             431
@@ -415,10 +434,12 @@
          ]
       ],
       "total":2016,
-      "name":"Wolf Creek"
+      "name":"Wolf Creek",
+      "latitude": 37.662433,
+      "avg_elevation" : 11102
    },
    {  
-      "articles":[  
+      "reports":[  
          [  
             2008,
             332
@@ -453,10 +474,52 @@
          ]
       ],
       "total":1583,
-      "name":"Telluride"
+      "name":"Telluride",
+      "latitude": 37.9365493,
+      "avg_elevation" : 10937
    },
    {  
-      "articles":[  
+      "reports":[  
+         [  
+            2008,
+            553
+         ],
+         [  
+            2009,
+            190
+         ],
+         [  
+            2010,
+            323
+         ],
+         [  
+            2011,
+            333
+         ],
+         [  
+            2012,
+            308
+         ],
+         [  
+            2013,
+            240
+         ],
+         [  
+            2014,
+            284
+         ],
+         [  
+            2015,
+            134
+         ]
+      ],
+      "total":2365,
+      "name":"Silverton",
+      "latitude": 37.8846276,
+      "avg_elevation" : 11943
+   },
+   {  
+      "reports":[  
          [  
             2008,
             319
@@ -491,6 +554,8 @@
          ]
       ],
       "total":1635,
-      "name":"Durango / Purgatory"
+      "name":"Durango / Purgatory",
+      "latitude": 37.27528,
+      "avg_elevation" : 9807
    }
 ]

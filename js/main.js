@@ -16,9 +16,9 @@ function truncate(str, maxLength, suffix) {
 ============================================*/
 
 $(function(){
-    var margin = {top: 20, right: 200, bottom: 0, left: 20},
+    var margin = {top: 20, right: 200, bottom: 0, left: 15},
     width = 650,
-    height = 650;
+    height = 450;
 
     var start_year = 2008,
         end_year = 2015;
@@ -54,38 +54,38 @@ $(function(){
             .call(xAxis);
 
         for (var j = 0; j < data.length; j++) {
-            var g = svg.append("g").attr("class","journal");
+            var g = svg.append("g").attr("class","resort");
 
             var circles = g.selectAll("circle")
-                .data(data[j]['articles'])
+                .data(data[j]['reports'])
                 .enter()
                 .append("circle");
 
             var text = g.selectAll("text")
-                .data(data[j]['articles'])
+                .data(data[j]['reports'])
                 .enter()
                 .append("text");
 
             var rScale = d3.scale.linear()
-                .domain([0, d3.max(data[j]['articles'], function(d) { return d[1]; })])
-                .range([2, 9]);
+                .domain([0, d3.max(data[j]['reports'], function(d) { return d[1]; })])
+                .range([2, 12]);
 
             circles
                 .attr("cx", function(d, i) { return xScale(d[0]); })
-                .attr("cy", j*20+20)
+                .attr("cy", j*30+20)
                 .attr("r", function(d) { return rScale(d[1]); })
                 .style("fill", function(d) { return c(j); });
 
             text
-                .attr("y", j*20+25)
-                .attr("x",function(d, i) { return xScale(d[0])-5; })
+                .attr("y", j*30+25)
+                .attr("x",function(d, i) { return xScale(d[0])-10; })
                 .attr("class","value")
                 .text(function(d){ return d[1]; })
                 .style("fill", function(d) { return c(j); })
                 .style("display","none");
 
             g.append("text")
-                .attr("y", j*20+25)
+                .attr("y", j*30+25)
                 .attr("x",width+20)
                 .attr("class","label")
                 .text(truncate(data[j]['name'],30,"..."))
